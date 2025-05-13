@@ -2,7 +2,7 @@
   command = "npm run build"
   publish = "dist"
   Functions = "functions"
-  environment = { PYTHON_VERSION = "3.8" }
+  environment = { PYTHON_VERSION = "3.8", PHP_VERSION = "8.3" }
 
 [[headers]]
     for = "/*"
